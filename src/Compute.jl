@@ -47,7 +47,7 @@ end
 """
     evaluate(model::VLLinearUtilityFunction, dependent::Array{Float64,2}) -> Array{Float64,1}
 """
-function evaluate(model::VLLinearUtilityFunction, dependent::Array{Float64,2}) -> Array{Float64,1}
+function evaluate(model::VLLinearUtilityFunction, dependent::Array{Float64,2})::Array{Float64,1}
 
     # get parameters from model -
     α = model.parameters;
@@ -66,7 +66,7 @@ end
 """
     evaluate(model::VLLinearUtilityFunction, dependent::Array{Float64,1}) -> Array{Float64,1}
 """
-function evaluate(model::VLLinearUtilityFunction, dependent::Array{Float64,1}) -> Array{Float64,1}
+function evaluate(model::VLLinearUtilityFunction, dependent::Array{Float64,1})::Array{Float64,1}
 
     # get parameters from model -
     α = model.parameters;
@@ -85,7 +85,7 @@ end
 """
     evaluate(model::VLCobbDouglasUtilityFunction, dependent::Array{Float64,2}) -> Array{Float64,1}
 """
-function evaluate(model::VLCobbDouglasUtilityFunction, dependent::Array{Float64,2}) -> Array{Float64,1}
+function evaluate(model::VLCobbDouglasUtilityFunction, dependent::Array{Float64,2})::Array{Float64,1}
 
     # get parameters from model -
     α = model.parameters;
@@ -104,7 +104,7 @@ end
 """
     evaluate(model::VLLeontiefUtilityFunction, dependent::Array{Float64,2}) -> Array{Float64,1}
 """
-function evaluate(model::VLLeontiefUtilityFunction, dependent::Array{Float64,2}) -> Array{Float64,1}
+function evaluate(model::VLLeontiefUtilityFunction, dependent::Array{Float64,2})::Array{Float64,1}
 
     # get parameters from model -
     α = model.parameters;
