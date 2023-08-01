@@ -6,7 +6,6 @@ module VLChE5760Cornell
     # exports -
     export hello;
     
-    
     # types -
     export VLLinearUtilityFunction, VLCobbDouglasUtilityFunction, VLLeontiefUtilityFunction, AbstractUtilityFunctionType;
 
