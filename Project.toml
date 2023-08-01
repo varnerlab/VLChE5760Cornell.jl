@@ -1,7 +1,7 @@
 name = "VLChE5760Cornell"
 uuid = "8f85c391-0665-4302-967b-eedfd53524ed"
 authors = ["jdv27"]
-version = "1.0.0-DEV"
+version = "0.1.0"
 
 [compat]
 julia = "1"
